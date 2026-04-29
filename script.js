@@ -4,7 +4,7 @@ const navToggle = document.querySelector(".nav-toggle");
 const primaryNav = document.querySelector("#primary-nav");
 const themeToggle = document.querySelector("[data-theme-toggle]");
 const yearElement = document.querySelector("[data-current-year]");
-const storageKey = "nabil-portfolio-theme";
+const storageKey = "nahidur-portfolio-theme";
 
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
