@@ -1,0 +1,25 @@
+<svg width="920" height="620" viewBox="0 0 920 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Finance tracker preview</title>
+  <desc id="desc">A dashboard preview with account cards, spending bars, and a savings chart.</desc>
+  <rect width="920" height="620" rx="18" fill="#F7F3E7"/>
+  <rect x="46" y="44" width="828" height="532" rx="16" fill="#13211F"/>
+  <rect x="80" y="82" width="150" height="18" rx="9" fill="#E8C547"/>
+  <rect x="80" y="126" width="235" height="112" rx="10" fill="#F7F3E7"/>
+  <rect x="346" y="126" width="235" height="112" rx="10" fill="#F7F3E7"/>
+  <rect x="612" y="126" width="228" height="112" rx="10" fill="#F7F3E7"/>
+  <rect x="112" y="164" width="92" height="14" rx="7" fill="#1DA1A8"/>
+  <rect x="112" y="195" width="154" height="13" rx="7" fill="#13211F" opacity="0.7"/>
+  <rect x="378" y="164" width="118" height="14" rx="7" fill="#E85D4F"/>
+  <rect x="378" y="195" width="143" height="13" rx="7" fill="#13211F" opacity="0.7"/>
+  <rect x="644" y="164" width="82" height="14" rx="7" fill="#E8C547"/>
+  <rect x="644" y="195" width="124" height="13" rx="7" fill="#13211F" opacity="0.7"/>
+  <rect x="80" y="274" width="500" height="238" rx="10" fill="#F7F3E7"/>
+  <path d="M118 455L198 413L278 432L356 352L438 379L540 314" stroke="#1DA1A8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M118 484H540" stroke="#13211F" stroke-width="6" stroke-linecap="round" opacity="0.18"/>
+  <path d="M118 324H540" stroke="#13211F" stroke-width="6" stroke-linecap="round" opacity="0.18"/>
+  <rect x="612" y="274" width="228" height="238" rx="10" fill="#F7F3E7"/>
+  <rect x="650" y="436" width="28" height="38" rx="7" fill="#E85D4F"/>
+  <rect x="700" y="398" width="28" height="76" rx="7" fill="#E8C547"/>
+  <rect x="750" y="342" width="28" height="132" rx="7" fill="#1DA1A8"/>
+  <rect x="800" y="376" width="28" height="98" rx="7" fill="#13211F"/>
+</svg>

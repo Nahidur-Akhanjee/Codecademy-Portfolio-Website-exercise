@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Nabil Akhanjee about web development projects, roles, or collaborations."
+    />
+    <title>Contact | Nabil Akhanjee</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-logo" href="index.html" aria-label="Nabil Akhanjee home">
+          <span class="logo-mark">NA</span>
+          <span>Nabil Akhanjee</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Menu</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+          <a href="index.html#about">About</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            Theme
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero reveal" aria-labelledby="contact-title">
+        <p class="eyebrow">Contact</p>
+        <h1 id="contact-title">Let's talk about the next web project.</h1>
+        <p>
+          I am open to junior developer opportunities, portfolio feedback, and
+          thoughtful collaborations.
+        </p>
+      </section>
+
+      <section class="section contact-layout reveal" aria-label="Contact options">
+        <div class="contact-details">
+          <h2>Reach me directly</h2>
+          <p>
+            Email is the best place to start. Add a short note about the project,
+            timeline, or role so I can reply with useful context.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span>Email</span>
+              <a href="mailto:nabil@example.com">nabil@example.com</a>
+            </li>
+            <li>
+              <span>GitHub</span>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">github.com</a>
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">linkedin.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" data-contact-form novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+            <p class="field-error" id="name-error" data-error-for="name"></p>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+            <p class="field-error" id="email-error" data-error-for="email"></p>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+            <p class="field-error" id="message-error" data-error-for="message"></p>
+          </div>
+
+          <button class="button button-primary" type="submit">Send message</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-current-year></span> Nabil Akhanjee. Made with HTML, CSS, and JavaScript.</p>
+      <a href="index.html">Back home</a>
+    </footer>
+  </body>
+</html>

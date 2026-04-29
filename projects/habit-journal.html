@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Habit Journal case study by Nabil Akhanjee, built with semantic HTML and responsive CSS."
+    />
+    <title>Habit Journal | Nabil Akhanjee</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body data-page="project">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-logo" href="../index.html" aria-label="Nabil Akhanjee home">
+          <span class="logo-mark">NA</span>
+          <span>Nabil Akhanjee</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Menu</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#projects" aria-current="page">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+          <a href="../contact.html">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            Theme
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <article class="project-detail">
+        <header class="project-detail-hero reveal">
+          <a class="text-link" href="../index.html#projects">Back to projects</a>
+          <p class="eyebrow">Case Study</p>
+          <h1>Habit Journal</h1>
+          <p>
+            A personal planning page designed to make weekly habit tracking feel
+            simple, steady, and visually organized.
+          </p>
+          <ul class="pill-list" aria-label="Technologies used">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Responsive Layout</li>
+            <li>Accessibility</li>
+          </ul>
+        </header>
+
+        <img
+          class="detail-image reveal"
+          src="../assets/habit-journal.svg"
+          alt="Habit journal weekly planner preview"
+        />
+
+        <div class="project-detail-grid reveal">
+          <section>
+            <h2>Project goal</h2>
+            <p>
+              The goal was to create a balanced content structure for daily
+              habits, weekly notes, and progress reflections using only semantic
+              HTML and CSS.
+            </p>
+          </section>
+          <section>
+            <h2>Key features</h2>
+            <ul class="checked-list">
+              <li>Responsive planner layout</li>
+              <li>Readable form-like sections</li>
+              <li>Consistent spacing and hierarchy</li>
+              <li>Accessible color contrast</li>
+            </ul>
+          </section>
+          <section>
+            <h2>What I practiced</h2>
+            <p>
+              This project helped me refine spacing, alignment, semantic section
+              structure, and visual hierarchy for a focused everyday tool.
+            </p>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-current-year></span> Nabil Akhanjee. Made with HTML, CSS, and JavaScript.</p>
+      <a href="../contact.html">Contact</a>
+    </footer>
+  </body>
+</html>

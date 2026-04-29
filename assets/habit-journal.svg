@@ -1,0 +1,24 @@
+<svg width="920" height="620" viewBox="0 0 920 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Habit journal preview</title>
+  <desc id="desc">A weekly planning interface with cards, check marks, and progress blocks.</desc>
+  <rect width="920" height="620" rx="18" fill="#EAF6F4"/>
+  <rect x="52" y="50" width="816" height="520" rx="16" fill="#FFFFFF"/>
+  <rect x="90" y="90" width="174" height="18" rx="9" fill="#13211F"/>
+  <rect x="90" y="142" width="230" height="350" rx="12" fill="#13211F"/>
+  <rect x="124" y="184" width="92" height="12" rx="6" fill="#E8C547"/>
+  <rect x="124" y="224" width="150" height="10" rx="5" fill="#F7F3E7" opacity="0.72"/>
+  <rect x="124" y="254" width="116" height="10" rx="5" fill="#F7F3E7" opacity="0.45"/>
+  <circle cx="142" cy="326" r="22" fill="#1DA1A8"/>
+  <path d="M132 326L140 335L154 316" stroke="#F7F3E7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="142" cy="390" r="22" fill="#E85D4F"/>
+  <path d="M132 390L140 399L154 380" stroke="#F7F3E7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="368" y="142" width="420" height="80" rx="12" fill="#F7F3E7"/>
+  <rect x="402" y="176" width="126" height="12" rx="6" fill="#1DA1A8"/>
+  <rect x="556" y="176" width="188" height="12" rx="6" fill="#13211F" opacity="0.45"/>
+  <rect x="368" y="254" width="124" height="238" rx="12" fill="#F7F3E7"/>
+  <rect x="516" y="254" width="124" height="238" rx="12" fill="#F7F3E7"/>
+  <rect x="664" y="254" width="124" height="238" rx="12" fill="#F7F3E7"/>
+  <rect x="396" y="396" width="68" height="56" rx="8" fill="#1DA1A8"/>
+  <rect x="544" y="350" width="68" height="102" rx="8" fill="#E8C547"/>
+  <rect x="692" y="306" width="68" height="146" rx="8" fill="#E85D4F"/>
+</svg>
