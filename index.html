@@ -1,232 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio website for Nahidur Akhanjee, a full-stack developer building clear and useful web experiences."
-    />
-    <title>Nahidur Akhanjee | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body data-page="home">
-    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="site-logo" href="index.html" aria-label="Nahidur Akhanjee home">
-          <span class="logo-mark">NA</span>
-          <span>Nahidur Akhanjee</span>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio website for Nahidur Akhanjee, a full-stack developer building clear and useful web experiences." />
+  <title>Nahidur Akhanjee | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
 
-        <button
-          class="nav-toggle"
-          type="button"
-          aria-controls="primary-nav"
-          aria-expanded="false"
-        >
-          <span class="visually-hidden">Menu</span>
-          <span class="nav-toggle-line"></span>
-          <span class="nav-toggle-line"></span>
-          <span class="nav-toggle-line"></span>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="index.html" aria-label="Nahidur Akhanjee home">
+        <span class="logo-mark">NA</span>
+        <span>Nahidur Akhanjee</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+          Theme
         </button>
+      </nav>
+    </div>
+  </header>
 
-        <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="contact.html">Contact</a>
-          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-            Theme
-          </button>
-        </nav>
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Portfolio Website</p>
+        <h1 id="hero-title">Nahidur Akhanjee</h1>
+        <p class="hero-lede">
+          An aspiring Full-stack developer focused on responsive interfaces, readable code,
+          and building web projects that have all of the features you need.
+        </p>
+        <div class="hero-actions" aria-label="Portfolio actions">
+          <a class="button button-primary" href="#projects">View projects</a>
+          <a class="button button-secondary" href="contact.html">Get in touch</a>
+        </div>
+        <dl class="hero-meta" aria-label="Portfolio summary">
+          <div>
+            <dt>Focus</dt>
+            <dd>HTML, CSS, JavaScript</dd>
+          </div>
+          <div>
+            <dt>Current</dt>
+            <dd>Codecademy Full-Stack Engineer Student</dd>
+          </div>
+          <div>
+            <dt>Based in</dt>
+            <dd>London, UK</dd>
+          </div>
+        </dl>
       </div>
-    </header>
+    </section>
 
-    <main id="main-content">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-content reveal">
-          <p class="eyebrow">Portfolio Website</p>
-          <h1 id="hero-title">Nahidur Akhanjee</h1>
-          <p class="hero-lede">
-            Full-stack developer focused on responsive interfaces, readable code,
-            and web projects that have all of the features you need.
-          </p>
-          <div class="hero-actions" aria-label="Portfolio actions">
-            <a class="button button-primary" href="#projects">View projects</a>
-            <a class="button button-secondary" href="contact.html">Get in touch</a>
+    <section class="section split-section reveal" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="section-kicker">About</p>
+        <h2 id="about-title">Building practical projects while learning full stack software engineering.</h2>
+      </div>
+      <div class="copy-stack">
+        <p>
+          I am building a solid foundation in front-end architecture, styling, interaction design, and full-stack
+          problem solving. My approach is driven
+          by curiosity, disciplined iteration, and a focus on creating interfaces where
+          the next step is clear and intuitive.
+        </p>
+        <p>
+          This portfolio brings together both course projects and independent work.
+          Each case study outlines the objective, the technologies used, and the key
+          lessons learned.
+        </p>
+        <div class="metrics" aria-label="Portfolio metrics">
+          <div class="metric">
+            <strong>3</strong>
+            <span>Featured projects</span>
           </div>
-          <dl class="hero-meta" aria-label="Portfolio summary">
-            <div>
-              <dt>Focus</dt>
-              <dd>HTML, CSS, JavaScript</dd>
-            </div>
-            <div>
-              <dt>Current</dt>
-              <dd>Codecademy Full-Stack Engineer</dd>
-            </div>
-            <div>
-              <dt>Based in</dt>
-              <dd>London, UK</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-
-      <section class="section split-section reveal" id="about" aria-labelledby="about-title">
-        <div>
-          <p class="section-kicker">About</p>
-          <h2 id="about-title">Building practical projects while learning the full stack.</h2>
-        </div>
-        <div class="copy-stack">
-          <p>
-            I am developing a strong foundation in front-end structure, styling,
-            interaction design, and full-stack problem solving. My work is shaped
-            by curiosity, careful iteration, and a preference for interfaces that
-            make the next step obvious.
-          </p>
-          <p>
-            This portfolio collects course projects and independent builds, with
-            each case study showing the goal, technology, and lessons learned.
-          </p>
-          <div class="metrics" aria-label="Portfolio metrics">
-            <div class="metric">
-              <strong>3</strong>
-              <span>Featured projects</span>
-            </div>
-            <div class="metric">
-              <strong>6</strong>
-              <span>Core skills</span>
-            </div>
-            <div class="metric">
-              <strong>100%</strong>
-              <span>Static HTML, CSS, JS</span>
-            </div>
+          <div class="metric">
+            <strong>6</strong>
+            <span>Core skills</span>
+          </div>
+          <div class="metric">
+            <strong>100%</strong>
+            <span>Static HTML, CSS, JS</span>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading reveal">
-          <p class="section-kicker">Projects</p>
-          <h2 id="projects-title">Selected work</h2>
-          <p>
-            A few web builds from my current learning path, each shaped around
-            a clear goal, a focused interface, and a useful next step.
-          </p>
-        </div>
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Projects</p>
+        <h2 id="projects-title">Selected work</h2>
+        <p>
+          A few web builds from my current learning path, each shaped around
+          a clear goal, a focused interface, and a useful next step.
+        </p>
+      </div>
 
-        <div class="filter-bar reveal" aria-label="Project filters">
-          <button class="filter-button is-active" type="button" data-filter="all">
-            All
-          </button>
-          <button class="filter-button" type="button" data-filter="html-css">
-            HTML/CSS
-          </button>
-          <button class="filter-button" type="button" data-filter="javascript">
-            JavaScript
-          </button>
-          <button class="filter-button" type="button" data-filter="responsive">
-            Responsive
-          </button>
-        </div>
-        <p class="project-status" data-project-status aria-live="polite">Showing all projects.</p>
+      <div class="filter-bar reveal" aria-label="Project filters">
+        <button class="filter-button is-active" type="button" data-filter="all">
+          All
+        </button>
+        <button class="filter-button" type="button" data-filter="html-css">
+          HTML/CSS
+        </button>
+        <button class="filter-button" type="button" data-filter="javascript">
+          JavaScript
+        </button>
+        <button class="filter-button" type="button" data-filter="responsive">
+          Responsive
+        </button>
+      </div>
+      <p class="project-status" data-project-status aria-live="polite">Showing all projects.</p>
 
-        <div class="project-grid">
-          <article class="project-card reveal" data-project-card data-categories="javascript responsive">
-            <a class="project-visual" href="projects/finance-tracker.html" aria-label="Open Finance Tracker project">
-              <img src="assets/finance-tracker.svg" alt="Finance tracker dashboard preview" />
-            </a>
-            <div class="project-card-body">
-              <p class="tag-list">JavaScript | Responsive</p>
-              <h3>Finance Tracker</h3>
-              <p>
-                A budgeting dashboard concept with savings summaries, category
-                breakdowns, and interactive filtering.
-              </p>
-              <a class="text-link" href="projects/finance-tracker.html">Read case study</a>
-            </div>
-          </article>
-
-          <article class="project-card reveal" data-project-card data-categories="html-css responsive">
-            <a class="project-visual" href="projects/habit-journal.html" aria-label="Open Habit Journal project">
-              <img src="assets/habit-journal.svg" alt="Habit journal weekly planner preview" />
-            </a>
-            <div class="project-card-body">
-              <p class="tag-list">HTML/CSS | Responsive</p>
-              <h3>Habit Journal</h3>
-              <p>
-                A clean personal planning layout for tracking weekly habits,
-                reflections, and small progress wins.
-              </p>
-              <a class="text-link" href="projects/habit-journal.html">Read case study</a>
-            </div>
-          </article>
-
-          <article class="project-card reveal" data-project-card data-categories="javascript html-css">
-            <a class="project-visual" href="projects/quiz-game.html" aria-label="Open Quiz Game project">
-              <img src="assets/quiz-game.svg" alt="Quiz game interface preview" />
-            </a>
-            <div class="project-card-body">
-              <p class="tag-list">JavaScript | HTML/CSS</p>
-              <h3>Quiz Game</h3>
-              <p>
-                A browser quiz prototype with answer states, progress feedback,
-                and simple score handling.
-              </p>
-              <a class="text-link" href="projects/quiz-game.html">Read case study</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section skills-section reveal" id="skills" aria-labelledby="skills-title">
-        <div class="section-heading">
-          <p class="section-kicker">Skills</p>
-          <h2 id="skills-title">Tools and habits I use while building.</h2>
-        </div>
-        <div class="skill-grid">
-          <div class="skill-group">
-            <h3>Front End</h3>
-            <ul>
-              <li>Semantic HTML</li>
-              <li>Responsive CSS</li>
-              <li>Accessible forms and navigation</li>
-            </ul>
+      <div class="project-grid">
+        <article class="project-card reveal" data-project-card data-categories="javascript responsive">
+          <a class="project-visual" href="projects/finance-tracker.html" aria-label="Open Finance Tracker project">
+            <img src="assets/finance-tracker.svg" alt="Finance tracker dashboard preview" />
+          </a>
+          <div class="project-card-body">
+            <p class="tag-list">JavaScript | Responsive</p>
+            <h3>Finance Tracker</h3>
+            <p>
+              A budgeting dashboard concept with savings summaries, category
+              breakdowns, and interactive filtering.
+            </p>
+            <a class="text-link" href="projects/finance-tracker.html">Read case study</a>
           </div>
-          <div class="skill-group">
-            <h3>JavaScript</h3>
-            <ul>
-              <li>DOM interaction</li>
-              <li>Form validation</li>
-              <li>Local storage state</li>
-            </ul>
-          </div>
-          <div class="skill-group">
-            <h3>Workflow</h3>
-            <ul>
-              <li>Git and GitHub</li>
-              <li>Project planning</li>
-              <li>Iterative testing</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </article>
 
-      <section class="contact-band reveal" aria-labelledby="contact-cta-title">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2 id="contact-cta-title">Have a project, role, or collaboration in mind?</h2>
-        </div>
-        <a class="button button-primary" href="contact.html">Contact me</a>
-      </section>
-    </main>
+        <article class="project-card reveal" data-project-card data-categories="html-css responsive">
+          <a class="project-visual" href="projects/habit-journal.html" aria-label="Open Habit Journal project">
+            <img src="assets/habit-journal.svg" alt="Habit journal weekly planner preview" />
+          </a>
+          <div class="project-card-body">
+            <p class="tag-list">HTML/CSS | Responsive</p>
+            <h3>Habit Journal</h3>
+            <p>
+              A clean personal planning layout for tracking weekly habits,
+              reflections, and small progress wins.
+            </p>
+            <a class="text-link" href="projects/habit-journal.html">Read case study</a>
+          </div>
+        </article>
 
-    <footer class="site-footer">
-      <p>&copy; <span data-current-year></span> Nahidur Akhanjee. Made with HTML, CSS, and JavaScript.</p>
-      <a href="#main-content">Back to top</a>
-    </footer>
-  </body>
+        <article class="project-card reveal" data-project-card data-categories="javascript html-css">
+          <a class="project-visual" href="projects/quiz-game.html" aria-label="Open Quiz Game project">
+            <img src="assets/quiz-game.svg" alt="Quiz game interface preview" />
+          </a>
+          <div class="project-card-body">
+            <p class="tag-list">JavaScript | HTML/CSS</p>
+            <h3>Quiz Game</h3>
+            <p>
+              A browser quiz prototype with answer states, progress feedback,
+              and simple score handling.
+            </p>
+            <a class="text-link" href="projects/quiz-game.html">Read case study</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section reveal" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <p class="section-kicker">Skills</p>
+        <h2 id="skills-title">Tools and habits I use while building.</h2>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-group">
+          <h3>Front End</h3>
+          <ul>
+            <li>Semantic HTML</li>
+            <li>Responsive CSS</li>
+            <li>Accessible forms and navigation</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>JavaScript</h3>
+          <ul>
+            <li>DOM interaction</li>
+            <li>Form validation</li>
+            <li>Local storage state</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Workflow</h3>
+          <ul>
+            <li>Git and GitHub</li>
+            <li>Project planning</li>
+            <li>Iterative testing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band reveal" aria-labelledby="contact-cta-title">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-cta-title">Have a project, role, or collaboration in mind?</h2>
+      </div>
+      <a class="button button-primary" href="contact.html">Contact me</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Nahidur Akhanjee. Made with HTML, CSS, and JavaScript.</p>
+    <a href="#main-content">Back to top</a>
+  </footer>
+</body>
+
 </html>
